@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+   <html>
+      <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <script src="https://kit.fontawesome.com/a77d58d15c.js" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="./saasCSS/saasDefault.CSS">
+         <link rel="stylesheet" href="./saasCSS/saasCustom.CSS">
+         <link rel="stylesheet" href="./saasCSS/saasResponsive.CSS">
+         <title>OnePage SaaS | Front - Responsive Website </title>
+      </head>
+      <body>
+         <nav id="topNav" class="navbar dspflx">
+            <!-- <div class="container"> -->
+               <button id="trigram" class="navButton" aria-expanded="false" aria-controls="navbardrop" aria-owns="brother"><span>&#9776;</span></button>
+               <!-- <div class="top-navigation dspflx">
+                  <img class="logo" src="./project_logo/logo.svg" alt="Project Logo">
+                  <ul class="navbar-nav dspflx">
+                     <li class="nav-link"><a href="#">Home</a></li>
+                     <li class="nav-link"><a href="#">Features</a></li>
+                     <li class="nav-link"><a href="#">Learn</a></li>
+                     <li class="nav-link"><a href="#">Pricing</a></li>
+                     <li class="nav-link"><a href="#">Hire Us</a></li>
+                     <li class="nav-link"><a href="#">Buy Now</a></li>   
+                  </ul>
+               </div> -->
+            <!-- </div> -->
+            <!-- <div class="top-navigation dspflx"> -->
+               <img class="logo" src="./project_logo/logo.svg" alt="Project Logo" style="width:20%;">
+               <ul id="brother" class="navbar-nav dspflx">
+                  <li class="nav-link"><a href="#">Home</a></li>
+                  <li class="nav-link"><a href="#">Features</a></li>
+                  <li class="nav-link"><a href="#">Learn</a></li>
+                  <li class="nav-link"><a href="#">Pricing</a></li>
+                  <li class="nav-link"><a href="#">Hire Us</a></li>
+                  <li class="nav-link"><a href="#">Buy Now</a></li>   
+               </ul>
+            <!-- </div> -->
+         </nav>
+         <!-- Header Background image -->
+         <img class="back" src="../saas/backgrounds/background-top.svg" alt="">
+         <!-- Header -->
+         <header class="bg">
+            <div class="bg-head dspflx">
+               <div class="bg-headerLeft-text">
+                  <h1>Empowering teams with the freedom</h1>
+                  <p>Own the unlimited power of web development</p>
+                  <div class="bg-links dspflx">
+                     <div class="bg-play">
+                        <a href="#"><i class="fa-solid fa-circle-play"></i>Play Video</a>
+                     </div>
+                     <a href="#" class="bg-learn">Learn More</a>
+                  </div>
+               </div>
+               <div class="bg-images">
+                  <a href="#" class="sizeSmall google"><img src="./logo_icons/google.png" alt="google"></a>
+                  <a href="#" class="sizeBig atlas"><img src="./logo_icons/atlassian.png" alt="Atlassian"></a>
+                  <a href="#" class="sizeBig asana"><img src="./logo_icons/asana.png" alt="asana"></a>
+                  <a href="#" class="sizeBig paypal"><img src="./logo_icons/paypal.jpg" alt="paypal"></a>
+                  <a href="#" class="sizeBig weave"><img src="./logo_icons/weave.png" alt="weave"></a>
+                  <a href="#" class="sizeSmall googleA"><img src="./logo_icons/google-A.png" alt="googleA"></a>
+                  <a href="#" class="sizeBig calendar"><img src="./logo_icons/calendar.png" alt="Calender"></a>
+               </div> 
+            </div>
+         </header>
+         <!--Benefits Section  -->
+         <section class="benefits">
+            <div class="benefits-text">
+               <h2>Key Benefits</h2>
+               <p>Design faster with a growing array of beautiful templates</p>
+            </div>
+            <div class="benefit-cards dspflx">
+               <div class="card dspflx">
+                  <img src="./icons/responsive.svg" alt="">
+                  <h3>Responsive</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div class="card dspflx">
+                  <img src="./icons/customizable.svg" alt="">
+                  <h3>Customizable</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div class="card dspflx">
+                  <img src="./icons/premium.svg" alt="">
+                  <div class="card-premium dspflx">
+                     <h3>Premium</h3>
+                     <h5>sketch</h5>
+                  </div>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div class="card dspflx">
+                  <img src="./icons/documentation.svg" alt="">
+                  <h3>Documentation</h3>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <a href="#">Learn more</a>
+               </div>
+            </div>
+         </section>
+         <!-- Why Front -->
+         <section class="why-front">
+            <div class="why-container">
+               <div class="why-top dspflx">
+                  <div class="video-content">
+                     <h3>Front makes you look at things from a different perspectives</h3>
+                     <a href="#"><i class="fa-solid fa-circle-play"></i>Play Video</a>
+                  </div>
+                  <img src="./banners/banner_one.jpg" alt="">
+               </div>
+               <div class="why-bottom">
+                  <h2>Why front?</h2>
+                  <p>Front is an incredibly beautiful, fully responsive, and mobile-first projects on the web - it is the starting point for creative sites</p>
+               </div>
+               <div class="why-list dspflx">
+                  <div class="list-item dspflx">
+                     <div class="circle-box dspflx">
+                        <div class="circle dspflx">
+                           <div class="bullet"></div>
+                        </div>
+                     </div>
+                     <span>Basic Elements</span>
+                  </div>
+                  <div class="list-item dspflx">
+                     <div class="circle-box dspflx">
+                        <div class="circle dspflx">
+                           <div class="bullet"></div>
+                        </div>
+                     </div>
+                     <span>Components</span>
+                  </div>
+                  <div class="list-item dspflx">
+                     <div class="circle-box dspflx">
+                        <div class="circle dspflx">
+                           <div class="bullet"></div>
+                        </div>
+                     </div>
+                     <span>Combined Components</span>
+                  </div>
+                  <div class="list-item dspflx">
+                     <div class="circle-box dspflx">
+                        <div class="circle dspflx">
+                           <div class="bullet"></div>
+                        </div>
+                     </div>
+                     <span>Page Layouts</span>
+                  </div>
+               </div>
+               <div class="why-bottom-video">
+                  <img src="./banners/banner_two.jpg" alt="">
+                  <a href="#" class="play-btn">
+                     <i class="fa-solid fa-play"></i>
+                  </a>
+               </div>
+               <div class="hubSpot dspflx">
+                  <div class="hubSpot-pictures dspflx">
+                     <img src="./abstract/dots.svg" alt="">
+                     <img src="./people/woman_three.jpg" alt="">
+                  </div>
+                  <div class="hubSpot-text">
+                     <img src="./company_logos/hubspot.svg" alt="">
+                     <p><b>The template is really nice and offers quite a large set of options. It's beautiful and the coding is done quickly and seamlessly. Thank you!</b></p>
+                     <h3>Christina Kray</h3>
+                     <p>Executive Director</p>
+                  </div>
+               </div>
+               <div class="trust">
+                  <h3>TRUSTED BY WORLD'S BEST</h3>
+                  <div class="trust-logos dspflx">
+                     <img src="./company_logos/weebly.svg" alt="">
+                     <img src="./company_logos/uber.svg" alt="">
+                     <img src="./company_logos/slack.svg" alt="">
+                     <img src="./company_logos/airbnb.svg" alt="">
+                     <img src="./company_logos/slack.svg" alt="">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Pricing Section -->
+         <section class="price dspflx">
+            <div class="price-text">
+               <h2>Pricing</h2>
+               <p>No additional costs. Pay for what you use</p>
+            </div>
+            <div class="price-ancillary dspflx">
+               <div class="price-card dspflx">
+                  <div class="fiveNine dspflx">
+                     <div>59</div>
+                     <span> / mo</span>
+                  </div>
+                  <hr class="price-hr">
+                  <p>Start your Front business now. 100% guaranteed money back. No questions asked.</p>
+                  <a href="#"><i class="fa-solid fa-circle-play"></i>Play Video</a>
+                  <p>No credit card required.</p>
+               </div>
+               <div class="price-box">
+                  <div class="box dspflx">
+                     <img src="./icons/components.svg" alt="">
+                     <h4>Hundreds of components</h4>
+                     <p>Achieve maximum productivity with minimum effort with Front and create robust Limitless products.</p>
+                  </div>
+                  <div class="box dspflx">
+                     <img src="./icons/images.svg" alt="">
+                     <h4>Images included</h4>
+                     <p>Images included We made custom license for all our premium images in the front</p>
+                  </div>
+                  <div class="box dspflx">
+                     <img src="./icons/cancel.svg" alt="">
+                     <div class="box-sketch dspflx">
+                        <h4>Cancel anytime</h4>
+                        <h5>sketch</h5>
+                     </div>
+                     <p>If its not for you, just cancel, no hidden cots or fees.</p>
+                  </div>
+                  <div class="box dspflx">
+                     <img src="./icons/moneyback.svg" alt="">
+                     <h4>Money back</h4>
+                     <p>100% guaranteed money back. No questions asked.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="footer">
+            <div class="footer-top dspflx">
+               <div class="hire-us-left">
+                  <div class="hire-us">
+                     <h2>Hire Us</h2>
+                     <p>Whatever your goal - we will get you there</p>
+                     <hr class="hire-hr">
+                     <h4><em>"I love front! I love the ease of use, I love the fact that I have total creative freedom..."</em></h4>
+                  </div>
+                  <div class="c-moore">
+                     <h3>Charlotte Moore</h3>
+                     <p>Head of Commercials, Stack</p>
+                     <div class="hire-us-pics dspflx">
+                        <img src="./people/woman_two.jpg" alt="">
+                        <img src="./people/woman_one.jpg" alt="">
+                        <img src="./people/man_one.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
+               <div class="hire-form dspflx">
+                  <h3>Fill out the form and we'll be in touch as soon as possible</h3>
+                  <div class="field-entry field dspflx">
+                     <input required type="text" placeholder="First name">
+                     <input required type="text" placeholder="Last name">
+                  </div>
+                  <div class="field-entry field dspflx">
+                     <input required type="text" placeholder="First name">
+                     <input required type="text" placeholder="Last name">
+                  </div>
+                  <div class="field-entry field dspflx">
+                     <select name="budget" id="budget">
+                        <option disable selected value="Budget">Budget</option>
+                        <option value="less than 1K">Less than 1K</option>
+                     </select>
+                     <select name="country" id="country">
+                        <option disable selected value="Country">Country</option>
+                        <option value="USA">USA</option>
+                     </select>
+                  </div>
+                  <div class="message">
+                     <textarea rows="6" cols="40" name="message" id="message">Tell us more about your project, needs, and timeline, please...</textarea>
+                  </div>
+                  <div class="disclaimer field dspflx">
+                     <div><input type="checkbox"   id="disclaimer"></div>
+                     <label for="disclaimer">Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</label>
+                  </div>
+                  <div class="policy field dspflx">
+                     <a href="#">View privacy policy</a>
+                     <a href="#">View privacy policy</a>
+                  </div>
+                  <a class="start" href="#">Get Started</a>
+               </div>
+            </div>
+            <div class="footer-bottom dspflx">
+               <div class="bottom-content dspflx">
+                  <div class="front">
+                     <img src="./project_logo/logo.svg" alt="Project Logo">
+                     <div class="contact address dspflx">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        <div> 153 Williamson Plaza, Maggieberg</div>
+                     </div>
+                     <div class="contact phone dspflx">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>+1 (062) 109-9222</div>
+                     </div>
+                  </div>
+                  <div class="front-text dspflx">
+                     <div class="company segment dspflx">
+                        <h3>Company</h3>
+                        <ul>
+                           <li>About</li>
+                           <li>
+                              <div class="stack dspflx">
+                                 <div>Career</div>
+                                 <div>We're hiring</div>
+                              </div>
+                           </li>
+                           <li>Blog</li>
+                           <li>Customers</li>
+                           <li>Hire us</li>
+                        </ul>
+                     </div>
+                     <div class="features segment dspflx">
+                        <h3>Features</h3>
+                        <ul>
+                           <li>Press</li>
+                           <li>Release notes</li>
+                           <li>Integrations</li>
+                           <li>Pricing</li>
+                        </ul>
+                     </div>
+                     <div class="document segment dspflx">
+                        <h3>Documentation</h3>
+                        <ul>
+                           <li>Support</li>
+                           <li>Docs</li>
+                           <li>Status</li>
+                           <li>API Reference</li>
+                           <li>Tech Requirements</li>
+                        </ul>
+                     </div>
+                     <div class="resource segment dspflx">
+                        <h3>Resources</h3>
+                        <ul>
+                           <li class="dspflx">
+                              <i class="fa-solid fa-phone"></i>
+                              <div>Help</div>
+                           </li>
+                           <li class="dspflx">
+                              <i class="fa-regular fa-user"></i>
+                              <div>Your Account</div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <hr class="hr">
+               <div class="bottom-ancillary dspflx">
+                  <div class="ancillary-text">
+                     <a href="#">Privacy & Policy ></a>
+                     <a href="#">Terms </a>
+                     <a href="#"> > Site Map</a>
+                  </div>
+                  <div class="ancillary-icon dspflx">
+                     <i class="fa-brands fa-facebook-f"></i>
+                     <i class="fa-brands fa-google"></i>
+                     <i class="fa-brands fa-twitter"></i>
+                     <i class="fa-solid fa-headphones"></i>
+                     <select name="area" id="area">
+                        <option value="United States">&#127987; United States</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <p>@ Front. 2022 Responsive designs. All rights reserved.</p>
+                  <p>When you visit or interact with our sites, services, or tools, we or our authorized service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
+               </div>
+            </div>
+         </section>
+         <script>
+            const nav = document.getElementById('trigram');
+            console.log(nav);
+            nav.addEventListener('click',() => {
+               const currentAttrValue = nav.getAttribute('aria-expanded');
+               const newAttrValue = currentAttrValue === 'false' ? 'true' : 'false';
+               nav.setAttribute('aria-expanded',newAttrValue);
+            });
+         </script>
+      </body>
+   </html>
